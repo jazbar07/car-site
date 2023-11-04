@@ -1,0 +1,45 @@
+nav {
+    border: 1px solid black;
+    width: 100% - 10px;
+    height: 100px;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.subbar {
+    display: none;
+    flex-grow: 1;
+    margin: auto;
+}
+
+.navbar, .subbar {
+    list-style-type: none;
+}
+
+a {
+    color: #757575;
+    text-transform: uppercase;
+    font-family: 'Lato', serif;
+    font-weight: 600;
+}
+
+a:active, a:hover, a:link {
+    text-decoration: none;
+}
+
+.logo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.item {
+    flex-grow: 1;
+    text-align: center;
+    margin: auto;
+}
